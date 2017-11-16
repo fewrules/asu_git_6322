@@ -990,7 +990,7 @@ SFX.muted = false;
 
 Game = {
   score: 0,
-  totalAsteroids: 5,
+  totalAsteroids: 5
   lives: 0,
 
   canvasWidth: 800,
@@ -1060,7 +1060,7 @@ Game = {
 
       Game.score = 0;
       Game.lives = 2;
-      Game.totalAsteroids = 2;
+      Game.totalAsteroids = 4;
       Game.spawnAsteroids();
 
       Game.nextBigAlienTime = Date.now() + 30000 + (30000 * Math.random());
